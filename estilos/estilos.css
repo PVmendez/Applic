@@ -1,3 +1,7 @@
+body{
+    background-color: #2d2962;
+}
+
 #texto_navbar{
     color: antiquewhite; 
 }
@@ -9,4 +13,9 @@
 #idusuario{
     color: antiquewhite;
     padding-block-end: initial;
+}
+
+#idBoton{
+    color: black;
+    background-color: #cb242c;
 }
