@@ -19,3 +19,32 @@ body{
     color: black;
     background-color: #cb242c;
 }
+
+#idRecuadroP{
+    background-color: #6c649f;
+    font-size: 1.1em;
+    padding: 1em 1.5em;
+    margin: 10px 0 25px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: 65%;
+    height: 70vh;
+    border-radius: 2%;
+    box-shadow: 0 8px 17px 2px rgb(0 0 0 / 30%), 0 3px 14px 2px rgb(0 0 0 / 30%), 0 5px 5px -3px rgb(0 0 0 / 30%);
+    display: inline-block;
+}
+
+#idRecuadroS{
+    background-color: #6c649f;
+    font-size: 1.1em;
+    padding: 1em 1.5em;
+    margin: 10px 0 25px;
+    margin-top: 3%;
+    margin-right: 3%;
+    width: 20%;
+    height: 70vh;
+    border-radius: 3%;
+    display: inline-block;
+    box-shadow: 0 8px 17px 2px rgb(0 0 0 / 30%), 0 3px 14px 2px rgb(0 0 0 / 30%), 0 5px 5px -3px rgb(0 0 0 / 30%);
+}
