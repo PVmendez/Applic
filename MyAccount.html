@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link type="text/css" href="estilos/MyAccount.css" rel="stylesheet" media="screen"/>
+    <title>My Account</title>
+</head>
+<body>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+         <div id="content" class="content content-full-width">
+            <div class="profile">
+               <div class="profile-header">
+                  <div class="profile-header-cover"></div>
+                  <div class="profile-header-content">
+                     <div class="profile-header-img">
+                        <img src="imagenes/Lebron_profile.jpg" alt="">
+                     </div>
+                     <div class="profile-header-info">
+                        <h4 class="m-t-10 m-b-5">Lebron James</h4>
+                        <p class="m-b-10">NBA Player</p>
+                        <a href="#" class="btn btn-sm btn-info mb-2">Edit Profile</a>
+                     </div>
+                  </div>
+                  <ul class="profile-header-tab nav nav-tabs">
+                     <li class="nav-item"><a href="#profile-post" class="nav-link active show" data-toggle="tab">POSTS</a></li>
+                     <li class="nav-item"><a href="#profile-about" class="nav-link" data-toggle="tab">ABOUT</a></li>
+                     <li class="nav-item"><a href="#profile-photos" class="nav-link" data-toggle="tab">PHOTOS</a></li>
+                     <li class="nav-item"><a href="#profile-videos" class="nav-link" data-toggle="tab">VIDEOS</a></li>
+                     <li class="nav-item"><a href="#profile-friends" class="nav-link" data-toggle="tab">FRIENDS</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="profile-content">
+               <div class="tab-content p-0">
+                  <div class="tab-pane fade active show" id="profile-post">
+                     <ul class="timeline">
+                        <li>
+                           <div class="timeline-time">
+                              <span class="date">today</span>
+                              <span class="time">04:20</span>
+                           </div>
+                           <div class="timeline-icon">
+                              <a href="javascript:;">&nbsp;</a>
+                           </div>
+                           <div class="timeline-body">
+                              <div class="timeline-header">
+                                 <span class="userimage"><img src="imagenes/lebron.png" alt=""></span>
+                                 <span class="username"><a href="javascript:;">Lebron James</a> <small></small></span>
+                                 <span class="pull-right text-muted">10M Views</span>
+                              </div>
+                              <div class="timeline-content">
+                                 <p>
+                                    Let's see who will choose my son in the draft
+                                 </p>
+                              </div>
+                              <div class="timeline-likes">
+                                 <div class="stats-right">
+                                    <span class="stats-text">259 Shares</span>
+                                    <span class="stats-text">21 Comments</span>
+                                 </div>
+                                 <div class="stats">
+                                    <span class="fa-stack fa-fw stats-icon">
+                                    <i class="fa fa-circle fa-stack-2x text-danger"></i>
+                                    <i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+                                    </span>
+                                    <span class="fa-stack fa-fw stats-icon">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="stats-total">4.3M</span>
+                                 </div>
+                              </div>
+                              <div class="timeline-footer">
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                              </div>
+                              <div class="timeline-comment-box">
+                                 <div class="user"><img src="imagenes/lebron.png"></div>
+                                 <div class="input">
+                                    <form action="">
+                                       <div class="input-group">
+                                          <input type="text" class="form-control rounded-corner" placeholder="Write a comment...">
+                                          <span class="input-group-btn p-l-10">
+                                          <button class="btn btn-primary f-s-12 rounded-corner" type="button">Comment</button>
+                                          </span>
+                                       </div>
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="timeline-time">
+                              <span class="date">yesterday</span>
+                              <span class="time">20:17</span>
+                           </div>
+                           <div class="timeline-icon">
+                              <a href="javascript:;">&nbsp;</a>
+                           </div>
+                           <div class="timeline-body">
+                              <div class="timeline-header">
+                                 <span class="userimage"><img src="imagenes/lebron.png" alt=""></span>
+                                 <span class="username">Lebron James</span>
+                                 <span class="pull-right text-muted">13M Views</span>
+                              </div>
+                              <div class="timeline-content">
+                                 <p>Location: United States</p>
+                              </div>
+                              <div class="timeline-footer">
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="timeline-time">
+                              <span class="date">24 February 2022</span>
+                              <span class="time">08:17</span>
+                           </div>
+
+                           <div class="timeline-icon">
+                              <a href="javascript:;">&nbsp;</a>
+                           </div>
+                           <div class="timeline-body">
+                              <div class="timeline-header">
+                                 <span class="userimage"><img src="imagenes/lebron.png" alt=""></span>
+                                 <span class="username">Lebron James</span>
+                                 <span class="pull-right text-muted">23M Views</span>
+                              </div>
+                              <div class="timeline-content">
+                                 <p class="lead">
+                                    <i class="fa fa-quote-left fa-fw pull-left"></i>
+                                    I'm here. I do not go anywhere. No matter what the injury is, unless it's completely debilitating, I'll be the same player I've always been.
+                                    <i class="fa fa-quote-right fa-fw pull-right"></i>
+                                 </p>
+                              </div>
+                              <div class="timeline-footer">
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                              </div>
+                           </div>
+
+                        </li>
+                        <li>
+
+                           <div class="timeline-time">
+                              <span class="date">10 January 2022</span>
+                              <span class="time">20:43</span>
+                           </div>
+
+                           <div class="timeline-icon">
+                              <a href="javascript:;">&nbsp;</a>
+                           </div>
+
+                           <div class="timeline-body">
+                              <div class="timeline-header">
+                                 <span class="userimage"><img src="imagenes/lebron.png" alt=""></span>
+                                 <span class="username">Lebron James</span>
+                                 <span class="pull-right text-muted">10,021,282 Views</span>
+                              </div>
+                              <div class="timeline-content">
+                                 <h4 class="template-title">
+                                    <i class="fa fa-map-marker text-danger fa-fw"></i>
+                                    Crypto.com Arena
+                                 </h4>
+                                 <p>What a great game I did last night.</p>
+                                 <p class="m-t-20">
+                                    <img src="imagenes/lebron_match.jpeg" alt="">
+                                 </p>
+                              </div>
+                              <div class="timeline-footer">
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                 <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                              </div>
+                           </div>
+
+                        </li>
+                        <li>
+
+                           <div class="timeline-icon">
+                              <a href="javascript:;">&nbsp;</a>
+                           </div>
+
+                           <div class="timeline-body">
+                              Loading...
+                           </div>
+
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+    
+</body>
+</html>
