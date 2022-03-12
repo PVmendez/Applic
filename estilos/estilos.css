@@ -1,22 +1,36 @@
 body{
     background-color: #2d2962;
+    margin-top: 25px;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    
+}
+h1{
+    color: #eff1f7;
 }
 
 #texto_navbar{
-    color: antiquewhite; 
+    color: #eff1f7; 
 }
 
 #navbarDropdown{
-    color: antiquewhite;
+    color: #eff1f7;
 }
 
 #idusuario{
-    color: antiquewhite;
+    color: #eff1f7;
     padding-block-end: initial;
+}
+
+.searchBar{
+    margin-right: 3vh;
+    height: 40px;
+    width: 30vh;
 }
 
 /* From cssbuttons.io */
 button {
+    margin-right: 12vh;
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -31,7 +45,7 @@ button {
    }
    
    button.learn-more {
-    width: 10rem;
+    width: 12rem;
     height: auto;
    }
    
@@ -39,10 +53,10 @@ button {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
     display: block;
-    margin-left: 10px;
+    margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #282936;
+    background: #797dab;
     border-radius: 1.625rem;
    }
    
@@ -112,31 +126,32 @@ button {
     margin-top: 3%;
     margin-left: 3%;
     margin-right: 5%;
-    width: 55%;
+    width: 90vh;
     height: 70vh;
     border-radius: 2%;
     box-shadow: 0 8px 17px 2px rgb(0 0 0 / 30%), 0 3px 14px 2px rgb(0 0 0 / 30%), 0 5px 5px -3px rgb(0 0 0 / 30%);
-    display: inline-block;
+    display: table-cell;
 }
 
 #idRecuadroS{
     background-color: #6c649f;
     font-size: 1.1em;
+    text-align: left;
     padding: 1em 1.5em;
-    margin: 10px 0 25px;
     margin-top: 3%;
     margin-right: 3%;
-    width: 30%;
+    width: 50vh;
     height: 70vh;
     border-radius: 3%;
-    display: inline-block;
+    display: table-cell;
     box-shadow: 0 8px 17px 2px rgb(0 0 0 / 30%), 0 3px 14px 2px rgb(0 0 0 / 30%), 0 5px 5px -3px rgb(0 0 0 / 30%);
 }
 
 /* From cssbuttons.io by @Sujitkavaiya */
 .card {
-    margin: 15px auto;
-    width: 55vh;
+    margin: 0px auto;
+    display: inline-flexbox;
+    width: 42vh;
     height: 25vh;
     background: #797dab;
     border-radius: 0.4em;
@@ -145,6 +160,19 @@ button {
     border: rgb(45, 41, 98) 0.2em solid;
    }
    
-   .card:hover {
+.card:hover {
     border: #34348c 0.2em solid;
-   }
+    }
+
+.imgLebron{
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+}
+div.card{
+    width: 45vh;
+    margin: 0px auto;
+}
+
